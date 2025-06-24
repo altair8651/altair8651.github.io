@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会社概要 - 株式会社サンミエージェント</title>
+    <!-- Tailwind CSSをCDNから読み込み -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google FontsからInterとNoto Sans JPフォントを読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* 日本語はNoto Sans JP、英数字はInterを優先的に使用する設定 */
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- 画面最上部に社名を表示するヘッダーバー -->
+    <div class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-16">
+                <span class="text-lg font-bold text-gray-800">株式会社サンミエージェント</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 全体を囲むコンテナ -->
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+        
+        <!-- メインコンテンツエリア -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden max-w-4xl mx-auto">
+            
+            <!-- ページヘッダー -->
+            <header class="bg-gray-800 text-white p-6 md:p-8">
+                <h1 class="text-2xl md:text-3xl font-bold">会社概要</h1>
+                <p class="text-gray-300 mt-1">Company Profile</p>
+            </header>
+
+            <!-- 事業紹介セクション -->
+            <section class="p-6 md:p-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 border-b pb-3 mb-6">事業紹介</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                    <!-- 事業1: 衣料・雑貨輸入販売 -->
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?q=80&w=2070&auto=format&fit=crop" 
+                             alt="衣料・雑貨のイメージ画像" 
+                             class="rounded-lg shadow-md w-full h-48 object-cover mb-4"
+                             onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/475569?text=衣料・雑貨';">
+                        <h3 class="font-semibold text-lg text-gray-700">衣料・雑貨輸入販売</h3>
+                        <p class="text-gray-600 mt-2 text-sm">トレンドを先取りしたアパレル商品や、日常を彩る様々な雑貨を世界各国から輸入し、お客様にお届けしています。</p>
+                    </div>
+                    <!-- 事業2: 輸入・運送業務 -->
+                    <div>
+                        <img src="https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                             alt="物流のイメージ画像" 
+                             class="rounded-lg shadow-md w-full h-48 object-cover mb-4"
+                             onerror="this.onerror=null;this.src='https://placehold.co/600x400/dbeafe/1e40af?text=輸入・運送';">
+                        <h3 class="font-semibold text-lg text-gray-700">輸入・運送業務</h3>
+                        <p class="text-gray-600 mt-2 text-sm">複雑な輸入手続きから、安全かつ迅速な国内・国際輸送まで、一貫した物流サービスを提供し、お客様のビジネスをサポートします。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 会社情報テーブル -->
+            <section class="p-6 md:p-8 border-t border-gray-200">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 border-b pb-3 mb-6">基本情報</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm md:text-base">
+                        <tbody>
+                            <tr class="border-b"><th class="font-semibold text-gray-700 bg-gray-50 p-4 text-left align-top w-1/3">会社名</th><td class="p-4 text-gray-800">株式会社サンミエージェント</td></tr>
+                            <tr class="border-b"><th class="font-semibold text-gray-700 bg-gray-50 p-4 text-left align-top">代表者</th><td class="p-4 text-gray-800">代表取締役　金本 美京</td></tr>
+                            <tr class="border-b"><th class="font-semibold text-gray-700 bg-gray-50 p-4 text-left align-top">設立</th><td class="p-4 text-gray-800">2022年6月22日</td></tr>
+                            <tr class="border-b"><th class="font-semibold text-gray-700 bg-gray-50 p-4 text-left align-top">資本金</th><td class="p-4 text-gray-800">1000万円</td></tr>
+                            <tr class="border-b"><th class="font-semibold text-gray-700 bg-gray-50 p-4 text-left align-top">取引銀行</th><td class="p-4 text-gray-800"><ul class="list-disc list-inside ml-4"><li>りそな銀行 船場支店</li><li>楽天銀行 第三営業支店</li><li>楽天銀行 第四営業支店</li></ul></td></tr>
+                            <tr><th class="font-semibold text-gray-700 bg-gray-50 p-4 text-left align-top">適格請求書発行事業者<br>登録番号</th><td class="p-4 text-gray-800">T8120001246928</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 拠点アクセス（Google Map）セクション -->
+            <section class="p-6 md:p-8 border-t border-gray-200">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 border-b pb-3 mb-6">拠点アクセス</h2>
+                <div class="space-y-8 mt-6">
+                    <!-- 日本本社 -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700">日本本社</h3>
+                        <p class="mt-1 text-gray-600">
+                            〒541-0057 大阪府大阪市中央区北久宝寺町3-6-1 本町南ガーデンシティ7F<br>
+                            電話: 06-7639-8466 | FAX: 06-7639-8465
+                        </p>
+                        <div class="mt-2 rounded-lg overflow-hidden shadow-md">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.041699912061!2d135.5009593153676!3d34.67897048044002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e738c8c7ba8b%3A0x68c7c13c7e0c4a4e!2z5p2x55S65Y2I55S65L2P5Y-L5Lit5aSu5YyX55S65YyX5L2P5a2Q5a-655S6IDMtNi0x!5e0!3m2!1sja!2sjp!4v1624500000000!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <!-- 日本営業所 -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700">日本営業所</h3>
+                        <p class="mt-1 text-gray-600">
+                            〒542-0081 大阪府大阪市中央区南船場2丁目10-21 日宝サンキュービル406<br>
+                            電話: 06-4708-6544 | FAX: 06-4708-6558
+                        </p>
+                        <div class="mt-2 rounded-lg overflow-hidden shadow-md">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.202319985924!2d135.5055083153675!3d34.67490298044125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e718613a23cf%3A0x36e2f1704284d797!2z5pel5p2x5Y-I5L2P5Y-L5Lit5aSu44OT44Or!5e0!3m2!1sja!2sjp!4v1624500000000!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <!-- 中国本社 -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700">中国本社</h3>
+                        <p class="mt-1 text-gray-600">
+                            翔鐏光电科技（广州）有限公司【XIANGZUN TRADING CO.LTD (PMG)】<br>
+                            中国広東省広州市白雲区石井街潭村水牛路4号 新域商貿園1棟401-2<br>
+                            電話: +86-20-8633-2050
+                        </p>
+                        <div class="mt-2 rounded-lg overflow-hidden shadow-md">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.138767576566!2d113.2307883149603!3d23.18950898478676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3402f5a5e3077e6b%3A0xe758564a51e5133d!2sChina%2C%20Guangdong%20Province%2C%20Guangzhou%2C%20Baiyun%20District%2C%20Shijing%20St%2C%20%E6%BD%AD%E6%B4%B2%E5%A4%A7%E9%81%93%E8%A5%BF%20邮政编码%3A%20510430!5e0!3m2!1sja!2sjp!4v1624500000000!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- フッター -->
+            <footer class="bg-gray-50 p-4 text-center text-xs text-gray-500">
+                <p>&copy; 2024 SANMI AGENT Inc. All Rights Reserved.</p>
+            </footer>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
